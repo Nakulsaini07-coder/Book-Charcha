@@ -1,0 +1,18 @@
+[2025-11-23 11:31:51,477] root - INFO - ====================Data Ingestion log started.==================== 
+[2025-11-23 11:31:51,477] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/entbappy/Branching-tutorial/raw/master/books_data.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2025-11-23 11:31:51,477] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2025-11-23 11:31:51,477] root - INFO - Downloading data from https://github.com/entbappy/Branching-tutorial/raw/master/books_data.zip into file artifacts\dataset\raw_data\books_data.zip
+[2025-11-23 11:32:13,632] root - INFO - Downloaded data from https://github.com/entbappy/Branching-tutorial/raw/master/books_data.zip into file artifacts\dataset\raw_data\books_data.zip
+[2025-11-23 11:32:14,071] root - INFO - Extracting zip file: artifacts\dataset\raw_data\books_data.zip into dir: artifacts\dataset\ingested_data
+[2025-11-23 11:32:14,071] root - INFO - ====================Data Ingestion log completed.==================== 
+
+
+[2025-11-23 11:32:14,071] root - INFO - ====================Data Validation log started.==================== 
+[2025-11-23 11:32:17,724] root - INFO -  Shape of ratings data file: (1149766, 3)
+[2025-11-23 11:32:17,724] root - INFO -  Shape of books data file: (270491, 8)
+[2025-11-23 11:32:18,686] root - INFO -  Shape of the final clean dataset: (59608, 9)
+[2025-11-23 11:32:18,830] root - INFO - Saved cleaned data to artifacts\dataset\clean_data
+[2025-11-23 11:32:18,844] root - INFO - Saved final_rating serialization object to artifacts\serialized_objects
+[2025-11-23 11:32:18,933] root - INFO - ====================Data Validation log completed.==================== 
+
+

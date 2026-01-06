@@ -1,0 +1,10 @@
+[2025-11-23 11:24:09,869] root - INFO - ====================Data Ingestion log started.==================== 
+[2025-11-23 11:24:09,869] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/entbappy/Branching-tutorial/raw/master/books_data.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2025-11-23 11:24:09,869] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2025-11-23 11:24:09,870] root - INFO - Downloading data from https://github.com/entbappy/Branching-tutorial/raw/master/books_data.zip into file artifacts\dataset\raw_data\books_data.zip
+[2025-11-23 11:24:42,656] root - INFO - Downloaded data from https://github.com/entbappy/Branching-tutorial/raw/master/books_data.zip into file artifacts\dataset\raw_data\books_data.zip
+[2025-11-23 11:24:43,083] root - INFO - Extracting zip file: artifacts\dataset\raw_data\books_data.zip into dir: artifacts\dataset\ingested_data
+[2025-11-23 11:24:43,083] root - INFO - ====================Data Ingestion log completed.==================== 
+
+
+[2025-11-23 11:24:43,083] root - INFO - ====================Data Validation log started.==================== 
