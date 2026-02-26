@@ -277,8 +277,3 @@ docker rm book-recommender-app
 
 ---
 
-## Author
-
-**Boktiar Ahmed Bappy**
-
-If you use this project, feel free to fork and improve it for your own recommendation workflows.
