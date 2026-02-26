@@ -13,7 +13,7 @@ The project trains a nearest-neighbor recommendation model from book ratings dat
 
 ## 🎥 Demo
 
-![Book Charcha Demo](media\ScreenRecording2026-02-26105404-ezgif.com-video-to-gif-converter.gif)
+![Book Charcha Demo](media/ScreenRecording2026-02-26105404-ezgif.com-video-to-gif-converter.gif)
 
 ---
 
