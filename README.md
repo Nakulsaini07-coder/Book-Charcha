@@ -11,11 +11,9 @@ The project trains a nearest-neighbor recommendation model from book ratings dat
 
 ---
 
-## Demo Video
+## 🎥 Demo
 
-Watch the project demo here:
-
-**[▶ Demo: Screen Recording 2026-02-26 105404](media/Screen%20Recording%202026-02-26%20105404.mp4)**
+![Book Charcha Demo](media\ScreenRecording2026-02-26105404-ezgif.com-video-to-gif-converter.gif)
 
 ---
 
